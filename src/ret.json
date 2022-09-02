@@ -1,0 +1,15 @@
+{
+  "Type": "Notification",
+  "MessageId": "299e4615-cec4-5acf-8cc4-1d12e126c46d",
+  "TopicArn": "arn:aws:sns:us-east-1:665286276158:acquisition-topic",
+  "Subject": "acquisition_lead_created-15",
+  "Message": "{\"id\":15,\"createdAt\":\"2022-05-24T19:10:24.902Z\",\"userId\":5,\"nome\":\"Erasmo Cont 15\",\"email\":\"erasmo@cont.com.br\",\"telefone\":\"(11)96582-73455\",\"tipo_entidade\":\"CPF\",\"quantidade_vidas\":3,\"possui_empresa\":true,\"numero_documento\":\"string\",\"comentario\":null,\"card_id\":null,\"user\":{\"id\":5,\"email\":\"erico@countbank.com.br\",\"user\":\"contbank\",\"external_id\":\"528528979\"}}",
+  "Timestamp": "2022-05-24T19:10:26.790Z",
+  "SignatureVersion": "1",
+  "Signature": "GNZXtpM2TVur/qaAxKUMZLp6B4sL5RxPfepKUaYW/zXHsSKAsFbQ+6OUNH+4YpZDl7LNUmBOgzbICehTNxkRwU0OWW6Gnq4wPMyr6bl0qqR5yR96bd939vuulhfNkBMTbZn5Uw7iIv2UJslVaT9WL8uv/ixdTjTWrKKZfJOUZxMUNYRIaANqOiM4m14zljie70PrDoZ38vsALymkTWoiQ4u1nCZkVZtIj5VXEVE2wSOivHaUzRWNF73DbIi/QN/fVlJU57HGgMkm45agzs7Tgwq/HMqOKc94uHJSGUPH84kuOEH9drRCY9v+XcBRqXN6LzpZk4XYRRyyW5ghYr+nWg==",
+  "SigningCertURL": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-7ff5318490ec183fbaddaa2a969abfda.pem",
+  "UnsubscribeURL": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:665286276158:acquisition-topic:f4dfbdb3-1b49-45a3-a920-ebcceef040e8",
+  "MessageAttributes": {
+    "event_type": { "Type": "String", "Value": "acquisition_lead_created" }
+  }
+}

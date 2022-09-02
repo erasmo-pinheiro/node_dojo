@@ -1,5 +1,8 @@
-import numero from './lib/numero'
+import { Controlador } from "./controllers/Controlador";
+import { getData } from "./router/get";
+const express = require("express");
+const app = express();
 
-const message: string = 'Hello World';
-console.log(message);
-console.log(numero());
+getData(app);
+
+app.listen(3000);
